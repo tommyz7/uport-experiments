@@ -1,7 +1,7 @@
 import { Connect, SimpleSigner } from 'uport-connect'
 
-const clientId = process.env.EXPERIMENTAPPCLIENTID;
-const signer = process.env.EXPERIMENTAPPSIGNER;
+const clientId = process.env.REACT_APP_EXPERIMENT_APP_CLIENT_ID;
+const signer = process.env.REACT_APP_EXPERIMENT_APP_SIGNER;
 
 export let uport = new Connect('Tom\'s experiment app', {
   clientId: clientId,
